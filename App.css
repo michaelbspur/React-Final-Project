@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+h2 {
+  font-size: 40px;
+}
+
+#Content-Container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#Content-Container nav {
+  border-radius: 15px;
+  background-color: black;
+
+}
+
+#Content-Container nav li {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+#Content-Container nav li a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+#Content-Container nav li a:hover {
+  color: pink;
+}
+
+
